@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: swagger-demo
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+    enabled: true
+  swagger-ui:
+    path: /swagger-ui.html
+    enabled: true
+    operations-sorter: alpha
+    tags-sorter: alpha
+
+server:
+  port: 8080
+
+logging:
+  level:
+    com.example: DEBUG
